@@ -69,7 +69,7 @@ main {
 
 .wrapper {
   padding: 0 17px;
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -125,7 +125,7 @@ main {
 }
 .preheader .preheader_manu a {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 @media screen and (max-width: 1400px) {
@@ -147,7 +147,7 @@ main {
   display: flex;
   gap: 12px;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   align-items: center;
 }
@@ -305,15 +305,10 @@ main {
   align-items: center;
 }
 .main_header_part .logo {
-  flex: 0 1 500px;
+  flex: 0 1 300px;
 }
 .main_header_part .logo img {
   width: 100%;
-}
-@media screen and (max-width: 1600px) {
-  .main_header_part .logo {
-    flex: 0 1 300px;
-  }
 }
 @media screen and (max-width: 1200px) {
   .main_header_part .logo {
