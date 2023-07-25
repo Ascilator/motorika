@@ -488,6 +488,7 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: 50% 100%;
   }
   .pc {
     @media screen and (max-width: 1200px) {
@@ -630,7 +631,7 @@ main {
     left: 0;
     padding: 0 40px;
     width: 100%;
-    height: calc(100% - 100px);
+    height: calc(100% - 250px);
     overflow: auto;
     .col {
       margin-bottom: 30px;
@@ -674,7 +675,7 @@ main {
     padding: 0 40px;
     transition: 0.3s;
     transform: translate(0, 0);
-    height: calc(100% - 100px);
+    height: calc(100% - 250px);
     overflow: auto;
     &._active {
       transform: translate(-100%, 0);
@@ -704,6 +705,8 @@ main {
   }
   .subscribe {
     margin-top: auto;
+    margin: auto -40px -80px;
+    padding: 0 40px 80px;
     z-index: 1;
     position: relative;
     .text {
@@ -743,6 +746,7 @@ main {
     @media screen and (max-width: 600px) {
       background: #282a2b;
       padding: 16px 20px;
+      margin: auto 0 0;
     }
   }
 
