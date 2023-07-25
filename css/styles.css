@@ -88,17 +88,17 @@ main {
 .preheader .numbers .number a {
   padding-bottom: 3px;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 .preheader .numbers .number p {
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
 }
 .preheader .free_shipping {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   margin: 0 auto;
   text-align: center;
@@ -121,11 +121,11 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  flex: 0 1 600px;
+  flex: 0 1 500px;
 }
 .preheader .preheader_manu a {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
 }
 @media screen and (max-width: 1400px) {
@@ -305,7 +305,7 @@ main {
   align-items: center;
 }
 .main_header_part .logo {
-  flex: 0 1 300px;
+  flex: 0 1 200px;
 }
 .main_header_part .logo img {
   width: 100%;
@@ -316,8 +316,8 @@ main {
   }
 }
 .main_header_part .search_box {
-  height: 56px;
-  flex: 0 1 550px;
+  height: 40px;
+  flex: 0 1 450px;
   border-radius: 50px;
   background: #6a6a6a;
   margin-left: auto;
@@ -329,6 +329,9 @@ main {
   display: flex;
   align-items: center;
 }
+.main_header_part .search_box .icon img {
+  width: 25px;
+}
 .main_header_part .search_box input {
   height: 100%;
   width: 100%;
@@ -336,7 +339,7 @@ main {
   border: none;
   background: #6a6a6a;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
 }
 @media screen and (max-width: 1200px) {
@@ -397,15 +400,18 @@ main {
 .main_header_part .users_action {
   display: flex;
   align-items: center;
-  gap: 40px;
-  margin-left: 40px;
+  gap: 20px;
+  margin-left: 20px;
 }
 .main_header_part .users_action .action {
   cursor: pointer;
 }
+.main_header_part .users_action .action img {
+  width: 30px;
+}
 @media screen and (max-width: 600px) {
   .main_header_part .users_action .action img {
-    width: 20px;
+    width: 15px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -441,13 +447,13 @@ main {
 .red_after_header .menu_red .menu_item p {
   color: #fff;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
 }
 .red_after_header .menu_red .menu_item .title {
   color: #fff;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
 }
 .red_after_header .menu_red .menu_item .title:hover {
@@ -471,7 +477,7 @@ main {
 .red_after_header .menu_body .body_title {
   width: 18.7001140251%;
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   text-align: center;
   padding: 17px 0;
@@ -483,7 +489,7 @@ main {
 }
 .red_after_header .menu_body .body .col a {
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 400;
   display: block;
   margin-bottom: 11px;
@@ -637,14 +643,14 @@ main {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   cursor: pointer;
 }
 @media screen and (max-width: 600px) {
   .mobile_menu_body .lvl_1_menu_item,
   .mobile_menu_body .menu_item {
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 .mobile_menu_body .lvl_1_menu_item {
@@ -685,7 +691,7 @@ main {
   font-weight: 400;
   line-height: normal;
   display: inline-block;
-  margin-bottom: 11px;
+  margin-bottom: 15px;
 }
 .mobile_menu_body .lvl_2_body a br {
   display: none;
@@ -727,7 +733,7 @@ main {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .mobile_menu_body .menu_item_small._first {
   margin-top: 60px;
@@ -740,7 +746,7 @@ main {
 @media screen and (max-width: 600px) {
   .mobile_menu_body .menu_item_small {
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 .mobile_menu_body .subscribe {
