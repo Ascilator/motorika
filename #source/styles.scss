@@ -70,7 +70,7 @@ main {
 
 .wrapper {
   padding: 0 17px;
-  max-width: 1754px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -104,6 +104,7 @@ main {
     font-size: 20px;
     font-weight: 400;
     margin: 0 auto;
+    text-align: center;
     @media screen and (max-width: 1600px) {
       text-align: center;
       a {
@@ -135,7 +136,7 @@ main {
 }
 
 .geo_part {
-  margin-right: 50px;
+  margin-right: 20px;
   position: relative;
   .geo_title {
     display: flex;
@@ -454,7 +455,7 @@ main {
     .body {
       display: flex;
       justify-content: space-between;
-      padding: 20px 105px 50px;
+      padding: 20px 85px 50px;
       .col {
         a {
           color: #fff;
@@ -463,6 +464,9 @@ main {
           display: block;
           margin-bottom: 11px;
         }
+      }
+      @media screen and (max-width: 1400px) {
+        padding: 20px 60px 50px;
       }
     }
     &:hover {
@@ -623,6 +627,8 @@ main {
     left: 0;
     padding: 0 40px;
     width: 100%;
+    height: calc(100% - 100px);
+    overflow: auto;
     .col {
       margin-bottom: 30px;
       @media screen and (max-width: 600px) {
@@ -665,6 +671,8 @@ main {
     padding: 0 40px;
     transition: 0.3s;
     transform: translate(0, 0);
+    height: calc(100% - 100px);
+    overflow: auto;
     &._active {
       transform: translate(-100%, 0);
     }
@@ -693,6 +701,8 @@ main {
   }
   .subscribe {
     margin-top: auto;
+    z-index: 1;
+    position: relative;
     .text {
       color: #fff;
       font-size: 20px;

@@ -69,7 +69,7 @@ main {
 
 .wrapper {
   padding: 0 17px;
-  max-width: 1754px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -101,6 +101,7 @@ main {
   font-size: 20px;
   font-weight: 400;
   margin: 0 auto;
+  text-align: center;
 }
 @media screen and (max-width: 1600px) {
   .preheader .free_shipping {
@@ -139,7 +140,7 @@ main {
 }
 
 .geo_part {
-  margin-right: 50px;
+  margin-right: 20px;
   position: relative;
 }
 .geo_part .geo_title {
@@ -372,8 +373,8 @@ main {
 }
 @media screen and (max-width: 600px) {
   .main_header_part .mobile_controls .burger .burger_upper,
-.main_header_part .mobile_controls .burger .burger_middle,
-.main_header_part .mobile_controls .burger .burger_lower {
+  .main_header_part .mobile_controls .burger .burger_middle,
+  .main_header_part .mobile_controls .burger .burger_lower {
     height: 2px;
   }
 }
@@ -483,7 +484,7 @@ main {
 .red_after_header .menu_body .body {
   display: flex;
   justify-content: space-between;
-  padding: 20px 105px 50px;
+  padding: 20px 85px 50px;
 }
 .red_after_header .menu_body .body .col a {
   color: #fff;
@@ -491,6 +492,11 @@ main {
   font-weight: 400;
   display: block;
   margin-bottom: 11px;
+}
+@media screen and (max-width: 1400px) {
+  .red_after_header .menu_body .body {
+    padding: 20px 60px 50px;
+  }
 }
 .red_after_header .menu_body:hover {
   opacity: 1;
@@ -641,7 +647,7 @@ main {
 }
 @media screen and (max-width: 600px) {
   .mobile_menu_body .lvl_1_menu_item,
-.mobile_menu_body .menu_item {
+  .mobile_menu_body .menu_item {
     font-size: 14px;
     margin-bottom: 10px;
   }
@@ -662,6 +668,8 @@ main {
   left: 0;
   padding: 0 40px;
   width: 100%;
+  height: calc(100% - 100px);
+  overflow: auto;
   transform: translate(-100%, 0);
   transition: 0.3s;
 }
@@ -708,6 +716,8 @@ main {
   padding: 0 40px;
   transition: 0.3s;
   transform: translate(0, 0);
+  height: calc(100% - 100px);
+  overflow: auto;
 }
 .mobile_menu_body .lvl_1_body._active {
   transform: translate(-100%, 0);
@@ -740,6 +750,8 @@ main {
 }
 .mobile_menu_body .subscribe {
   margin-top: auto;
+  z-index: 1;
+  position: relative;
 }
 .mobile_menu_body .subscribe .text {
   color: #fff;
