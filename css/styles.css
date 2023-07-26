@@ -126,7 +126,7 @@ main {
 }
 .preheader .preheader_manu a {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 @media screen and (max-width: 1400px) {
@@ -318,7 +318,7 @@ main {
 }
 .main_header_part .search_box {
   height: 50px;
-  flex: 0 1 260px;
+  flex: 0 1 280px;
   border-radius: 50px;
   background: #6a6a6a;
   margin-left: auto;
@@ -439,7 +439,7 @@ main {
 }
 @media screen and (max-width: 600px) {
   .main_header_part .users_action .action img {
-    width: 15px;
+    width: 20px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -455,7 +455,7 @@ main {
 }
 @media screen and (max-width: 600px) {
   .main_header_part {
-    padding: 10px 0;
+    padding: 5px 0;
   }
 }
 
@@ -505,7 +505,7 @@ main {
 .red_after_header .menu_body .body_title {
   width: 18.7001140251%;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   text-align: center;
   padding: 17px 0;

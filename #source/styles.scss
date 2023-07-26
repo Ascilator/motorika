@@ -124,7 +124,7 @@ main {
     margin-left: auto;
     a {
       color: #fff;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 600;
     }
     @media screen and (max-width: 1400px) {
@@ -302,7 +302,7 @@ main {
   }
   .search_box {
     height: 50px;
-    flex: 0 1 260px;
+    flex: 0 1 280px;
     border-radius: 50px;
     background: #6a6a6a;
     margin-left: auto;
@@ -421,7 +421,7 @@ main {
       }
       @media screen and (max-width: 600px) {
         img {
-          width: 15px;
+          width: 20px;
         }
       }
     }
@@ -435,7 +435,7 @@ main {
   }
 
   @media screen and (max-width: 600px) {
-    padding: 10px 0;
+    padding: 5px 0;
   }
 }
 
@@ -482,7 +482,7 @@ main {
     .body_title {
       width: calc(328 / 1754 * 100%);
       color: #fff;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 700;
       text-align: center;
       padding: 17px 0;
