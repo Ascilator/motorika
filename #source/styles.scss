@@ -89,7 +89,7 @@ main {
       a {
         padding-bottom: 3px;
         color: #fff;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
       }
       p {
@@ -118,9 +118,10 @@ main {
   .preheader_manu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: flex-end;
+    gap: 15px;
     flex: 0 1 500px;
+    margin-left: auto;
     a {
       color: #fff;
       font-size: 14px;
@@ -294,25 +295,27 @@ main {
     img {
       width: 100%;
     }
-    flex: 0 1 200px;
+    flex: 0 1 300px;
     @media screen and (max-width: 1200px) {
       display: none;
     }
   }
   .search_box {
-    height: 40px;
-    flex: 0 1 450px;
+    height: 50px;
+    flex: 0 1 260px;
     border-radius: 50px;
     background: #6a6a6a;
     margin-left: auto;
     display: flex;
     align-items: stretch;
+    position: relative;
+    transition: 0.3s;
     .icon {
       padding: 0 15px;
       display: flex;
       align-items: center;
       img {
-        width: 25px;
+        width: 35px;
       }
     }
     input {
@@ -326,6 +329,34 @@ main {
       color: #fff;
       font-size: 16px;
       font-weight: 400;
+    }
+
+    .hints {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      border-radius: 0px 0px 30px 30px;
+      background: #6a6a6a;
+      z-index: 10;
+      transition: 0.3s;
+      opacity: 0;
+      visibility: hidden;
+      .sugg {
+        padding: 10px 50px;
+      }
+    }
+
+    &._active {
+      border-radius: 30px 30px 0 0;
+      .hints {
+        opacity: 1;
+        visibility: visible;
+      }
     }
     @media screen and (max-width: 1200px) {
       display: none;
@@ -377,6 +408,7 @@ main {
       gap: 10px;
     }
   }
+
   .users_action {
     display: flex;
     align-items: center;
@@ -420,13 +452,13 @@ main {
       p {
         color: #fff;
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
       }
       .title {
         color: #fff;
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
         &:hover {
           opacity: 0;

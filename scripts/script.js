@@ -75,6 +75,14 @@ $(function () {
     $('.lvl_2_body').removeClass('_active');
     $('.lvl_1_body').removeClass('_active');
   });
+
+  $('#search_input').on('input', function (e) {
+    if (e.target.value === '') {
+      $('#search_input').parent().removeClass('_active');
+    } else {
+      $('#search_input').parent().addClass('_active');
+    }
+  });
 });
 
 document.querySelector(':root').style.setProperty('--vh', window.innerHeight / 100 + 'px');
