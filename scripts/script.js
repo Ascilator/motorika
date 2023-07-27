@@ -83,6 +83,14 @@ $(function () {
       $('#search_input').parent().addClass('_active');
     }
   });
+
+  $('#search_input').on('focus', function () {
+    $('#search_input').parent().addClass('_hover');
+  });
+
+  $('#search_input').on('blur', function () {
+    $('#search_input').parent().removeClass('_hover');
+  });
 });
 
 document.querySelector(':root').style.setProperty('--vh', window.innerHeight / 100 + 'px');
